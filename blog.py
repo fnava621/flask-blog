@@ -7,7 +7,7 @@ from flask import Flask, request, session, g, redirect, url_for, abort, render_t
 #configuration
 
 DATABASE = '/tmp/blog.db'
-DEBUG = True
+DEBUG = False
 SECRET_KEY = 'development key'
 USERNAME = 'fnava621'
 PASSWORD = 'default'
